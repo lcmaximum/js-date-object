@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>
+      Displaying Dates With Javascript
+    </h1>
+
+    <h3>Today</h3>
+    <button id="hide-show-btn">HIDE</button>
+    <div id="date-example" style="visibility: visible;">
+      <p class="main-code">
+        let today = new Date()
+      </p>
+      <span class="code">`today.toDateString()`</span>
+      <div id="date-string-div"></div>
+
+      <span class="code">`today.toTimeString()`</span>
+      <div id="time-string-div"></div>
+
+      <span class="code">`today.toString()`</span>
+      <div id="to-string-div"></div>
+    </div>
+
+    <select id="user-month"
+      ><option value="0">January</option>
+      <option value="1">February</option></select
+    >
+    <select id="user-day"
+      ><option value="1">1</option>
+      <option value="2">2</option></select
+    >
+
+    <select id="user-year"
+      ><option value="1999">1999</option>
+      <option value="2000">2000</option></select
+    >
+    <button id="user-date-btn">Submit Date</button>
+
+    <div id="user-submitted-dates"></div>
+  </body>
+</html>
