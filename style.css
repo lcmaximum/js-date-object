@@ -1,9 +1,60 @@
+body,
+html {
+  margin: 0 auto;
+}
+
 .main-code {
-    border: solid;
-    font-weight: 600;
-  }
-  
-  .code {
-    font-weight: 600;
-  }
-  
+  border: solid;
+  font-weight: 600;
+  max-width: 50%;
+  padding: 2px;
+}
+
+.code {
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+#new-task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#new-task-date,
+#user-date-form {
+  display: flex;
+}
+
+.cat-icon {
+  height: 25px;
+  width: 25px;
+  border: 1px solid;
+  margin-right: 2ch;
+}
+
+.education-icon {
+  background-color: aqua;
+}
+
+.health-icon {
+  background-color: blue;
+}
+
+.finance-icon {
+  background-color: gold;
+}
+
+.social-icon {
+  background-color: hotpink;
+}
+
+.home-icon {
+  background-color: orange;
+}
+
+.task-list-date {
+  width: 25ch;
+}
